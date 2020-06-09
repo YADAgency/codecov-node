@@ -17,6 +17,7 @@ var args = argv.option([
   {name: 'clear', short: 'C', type: 'boolean', description: "Remove all discovered reports after uploading"},
   {name: 'branch', short: 'b', type: 'string', description: "Branch name"},
   {name: 'build', short: 'B', type: 'string', description: "Specify a custom build number to distinguish ci jobs, provided automatically for supported ci companies"},
+  {name: 'pr', type: 'string', description: "Specify a GitHub Pull Request number"},
   {name: 'slug', short: 'r', type: 'string', description: "Specify repository slug for Enterprise ex. owner/repo"},
   {name: 'url', short: 'u', type: 'string', description: "Your Codecov endpoint"},
   {name: 'flags', short: 'F', type: 'string', description: "Codecov Flags"},
